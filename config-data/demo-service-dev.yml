@@ -23,3 +23,8 @@ logging:
     root: DEBUG
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8099/eureka/
