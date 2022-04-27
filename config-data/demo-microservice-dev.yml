@@ -17,3 +17,10 @@ spring:
       show:
         sql: true
 
+eureka:
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defeaultZone: http://localhost:8099/eureka/
+
