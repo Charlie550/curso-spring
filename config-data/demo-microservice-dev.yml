@@ -19,8 +19,8 @@ spring:
 
 eureka:
   client:
-    fetchRegistry: true
-    registerWithEureka: true
-    serviceUrl:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
       defeaultZone: http://localhost:8099/eureka/
 
